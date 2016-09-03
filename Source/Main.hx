@@ -12,9 +12,6 @@ class Main extends Sprite
         super();
         
         var config = new WorldConfig();
-        var creator = new Creator();
-
-        config.add(creator);
 
         config.add(new UpdateSystem());
 
